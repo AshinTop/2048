@@ -19,6 +19,13 @@ body {
   clear: both;
 }
 
+.header {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 h1.title {
   font-size: 50px;
   font-weight: bold;
@@ -61,8 +68,10 @@ h1.title {
   }
 }
 .scores-container {
-  float: right;
-  text-align: right;
+  /* float: right; */
+  text-align: center;
+  display: flex;
+  gap: 10px;
 }
 
 .score-container,
@@ -79,6 +88,7 @@ h1.title {
   color: white;
   margin-top: 8px;
   text-align: center;
+  flex: 1;
 }
 .score-container:after,
 .best-container:after {
@@ -629,7 +639,7 @@ hr {
 }
 
 .above-game {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .above-game:after {
@@ -691,7 +701,10 @@ hr {
   }
 
   .heading {
-    margin-bottom: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .game-intro {
